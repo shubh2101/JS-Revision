@@ -37,3 +37,7 @@ const max = array2.reduce((acc, curr) => {
 }, 0);
 
 // console.log(max);
+
+//covert array into string
+const arrToString = array2.reduce((acc, curr) => (acc += curr), '');
+console.log(arrToString);

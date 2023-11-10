@@ -25,3 +25,15 @@ const output = arr.reduce((acc, curr, i) => {
 }, 10);
 
 console.log(output);
+
+//Maximum of array using reduce
+
+const array2 = [2, 8, 4, 12, 7, 11];
+const max = array2.reduce((acc, curr) => {
+  if (curr > acc) {
+    acc = curr;
+  }
+  return acc;
+}, 0);
+
+// console.log(max);

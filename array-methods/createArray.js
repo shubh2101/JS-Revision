@@ -25,6 +25,8 @@ console.log(Array.of('foo', 2, 'bar', true));
 // Expected output: Array ["foo", 2, "bar", true]
 console.log(Array.of());
 // Expected output: Array []
+let newArray1 = Array.of(1, 'hello', [3, 4], { key: 'value' });
+// Result: [1, 'hello', [3, 4], { key: 'value' }]
 
 //NOTE : array.from() convert iterables to new array
 //where as array.of() creates new array based on args regardless of their type
